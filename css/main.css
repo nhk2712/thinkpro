@@ -1,0 +1,14 @@
+header{
+    position: fixed;
+    display: flex;
+    padding: 20px 150px 20px 150px;
+    justify-items: space-between;
+}
+
+body{
+    margin: 0px;
+}
+
+#container {
+    padding: 120px 150px 20px 150px;
+}
