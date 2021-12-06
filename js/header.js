@@ -8,6 +8,3 @@ search.onfocus = function() {
 search.onblur = function(){
     searchZone.style.borderColor = 'rgb(209, 209, 209)'
 }
-
-var header = document.getElementsByTagName('header')[0]
-header.width = window.innerWidth

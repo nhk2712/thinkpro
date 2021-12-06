@@ -3,13 +3,14 @@
 }
 
 #banner1{
-    width:60%;
+    width:65%;
     border-radius: 20px;
     border:1px solid lightgrey;
 }
 
 #banner2{
     width:35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #banner1-item{
@@ -29,4 +30,34 @@
     border-radius: 20px 20px 0px 0px;
     border-bottom:1px solid lightgrey;
     transition: all 0.5s;
+}
+
+.banner2{
+    background-color:rgb(240, 240, 240);
+    border-radius:20px;
+    padding:30px 20px 30px 20px;
+    cursor:pointer;
+    font-size: 15px;
+    margin:10px 0px 10px 20px;
+    width:80%;
+}
+
+#banner2-item{
+    border-radius:20px 20px 0px 0px;
+    padding:20px 20px 20px 20px;
+    cursor:pointer;
+    font-size: 15px;
+    margin:0px 0px 10px 20px;
+    background-color:darkblue;
+    color:white;
+    font-weight: 500;
+    width:80%;
+}
+
+#more{
+    margin:10px 0px 10px 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
 }

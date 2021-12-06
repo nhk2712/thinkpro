@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/header.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/sale.css">
 </head>
 
 <body>
     <header>
-        <a href="">
+        <a href="" style="float:left;">
             <img src="img/logo.svg" id="home">
         </a>
         <div id="type">
@@ -20,7 +21,7 @@
             <span class="header-type" id="header-pc">PC</span>
             <span class="header-type" id="header-gear">Phụ Kiện</span>
         </div>
-        <form>
+        <form style="float:left;width:30%">
             <div id="search-zone">
                 <input type="text" id="search" placeholder="Tìm kiếm trên ThinkPro">
                 <button id="search-btn">
@@ -65,15 +66,36 @@
                 </div>
             </div>
             <div id="banner2">
-                <div class="banner2">ThinkPro Đồng Hành Cùng Giải Game Predator League 2021 - Hàng Loạt Laptop Acer Được Giảm Giá Hấp Dẫn</div>
+                <div id="banner2-item">ThinkPro Đồng Hành Cùng Giải Game Predator League 2021 - Hàng Loạt Laptop Acer Được Giảm Giá Hấp Dẫn</div>
                 <div class="banner2">"Cuối Tuần Đen Tối - Săn SALE Lạc Lối" Tại Quầy Bar Công Nghệ ThinkPro</div>
                 <div class="banner2">Đánh giá chi tiết GIGABYTE Gaming G5 MD: Điều kỳ diệu từ Dual-channel RAM?</div>
+                <div id="more">
+                    Tất cả tin tức
+                    <svg style="transform: translateY(5px);" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="cyan" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+
+        <div id="sale">
+            <h1>Giảm giá sốc</h1>
+            <div id="sale-content">
+                <div class="sale-item"></div>
+                <div class="sale-item"></div>
+                <div class="sale-item"></div>
+                <div class="sale-item"></div>
+                <div class="sale-item"></div>
+            </div>
+            <div class="all-cover">
+                <button class="all">Xem tất cả</button>
             </div>
         </div>
     </div>
 
     <script src="js/header.js"></script>
     <script src="js/banner.js"></script>
+    <script src="js/sale.js"></script>
 </body>
 
 </html>
